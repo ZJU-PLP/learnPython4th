@@ -12,7 +12,8 @@ print("Roosters", 100 - 25 * 3 % 4)
 
 print("Now, I can count eggs:")
 
-print(3 + 2 + 1 - 5 + 4 % 2 - 1 / 4 + 6)  # why the result is 6.75, the result should be 7?
+# why the result is 6.75, the result should be 7? python2 and 3 is different, add int!
+print(3 + 2 + 1 - 5 + 4 % 2 - int(1 / 4) + 6)
 
 print("Is it true that 3 + 2 < 5 - 7?")
 
