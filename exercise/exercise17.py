@@ -6,7 +6,7 @@
 # @GitHub  ：https://github.com/ZJU-PLP
 
 from sys import argv
-from os.path import exists
+from os.path import exists  # python中的os模块:http://www.cnblogs.com/MnCu8261/p/5483657.html
 
 script, from_file, to_file = argv
 
